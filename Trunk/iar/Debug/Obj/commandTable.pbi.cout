@@ -1,17 +1,17 @@
-"E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\src\usart\commandTable.c"
+"E:\GitHub\SPI_Master\spi_master\Trunk\src\usart\commandTable.c"
 -std=c99
 -I
-E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\iar\..\include
+E:\GitHub\SPI_Master\spi_master\Trunk\iar\..\include
 -I
-E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\iar\..\..\RtosSalvo\Inc
+E:\GitHub\SPI_Master\spi_master\Trunk\iar\..\..\RtosSalvo\Inc
 -I
-E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\iar\..\src\board
+E:\GitHub\SPI_Master\spi_master\Trunk\iar\..\src\board
 -I
-E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\iar\..\..\Libraries\CMSIS\CM3\CoreSupport
+E:\GitHub\SPI_Master\spi_master\Trunk\iar\..\..\Libraries\CMSIS\CM3\CoreSupport
 -I
-E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\iar\..\..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F2xx
+E:\GitHub\SPI_Master\spi_master\Trunk\iar\..\..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F2xx
 -I
-E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\iar\..\..\Libraries\STM32F2xx_StdPeriph_Driver\inc
+E:\GitHub\SPI_Master\spi_master\Trunk\iar\..\..\Libraries\STM32F2xx_StdPeriph_Driver\inc
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.5\arm\CMSIS\Include
 -I
@@ -19,17 +19,17 @@ C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.5\arm\inc
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.5\arm\inc\c
 -I
-E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\include
+E:\GitHub\SPI_Master\spi_master\Trunk\include
 -I
-E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\RtosSalvo\Inc
+E:\GitHub\SPI_Master\spi_master\RtosSalvo\Inc
 -I
-E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\src\board
+E:\GitHub\SPI_Master\spi_master\Trunk\src\board
 -I
-E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Libraries\CMSIS\CM3\CoreSupport
+E:\GitHub\SPI_Master\spi_master\Libraries\CMSIS\CM3\CoreSupport
 -I
-E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F2xx
+E:\GitHub\SPI_Master\spi_master\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F2xx
 -I
-E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Libraries\STM32F2xx_StdPeriph_Driver\inc
+E:\GitHub\SPI_Master\spi_master\Libraries\STM32F2xx_StdPeriph_Driver\inc
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.5\arm\CMSIS\Include
 -DUSE_STDPERIPH_DRIVER=0
@@ -229,7 +229,7 @@ C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.5\arm\CMSIS\Include
 -D__HAS_LOCATED_WITH_INIT__=1
 -D__IAR_COMPILERBASE__=593157
 -D__DATE__="Feb 22 2021"
--D__TIME__="09:56:00"
+-D__TIME__="10:40:24"
 -D__STDC__=1
 -D__STDC_VERSION__=199901L
 -D__STDC_HOSTED__=1

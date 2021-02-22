@@ -1,5 +1,5 @@
 [DebugChecksum]
-Checksum=696999588
+Checksum=828573975
 [Stack]
 FillEnabled=0
 OverflowWarningsEnabled=1
@@ -61,6 +61,13 @@ GraphEnabled=0
 ShowTimeLog=1
 ShowTimeSum=1
 SumSortOrder=0
+[Disassemble mode]
+mode=0
+[Breakpoints2]
+Bp0=_ 1 "EMUL_CODE" "{$PROJ_DIR$\..\src\usart\commands.c}.4698.11" 0 0 1 "" 0 "" 0
+Bp1=_ 1 "EMUL_CODE" "{$PROJ_DIR$\..\src\usart\commands.c}.4702.3" 0 0 1 "" 0 "" 0
+Bp2=_ 0 "EMUL_CODE" "{C:\Windows\system32}.68.1" 0 0 1 "" 0 "" 0
+Count=3
 [Log file]
 LoggingEnabled=_ 0
 LogFile=_ ""
@@ -68,6 +75,12 @@ Category=_ 0
 [TermIOLog]
 LoggingEnabled=_ 0
 LogFile=_ ""
+[Aliases]
+A0=_ "F:\memsic\svn\DMU380\software\RtosSalvo\Src\salvodelay.c" ""
+A1=_ "F:\memsic\svn\DMU380\software\RtosSalvo\Src\salvoinit2.c" ""
+A2=_ "F:\memsic\svn\DMU380\software\RtosSalvo\Src\salvosched.c" ""
+Count=3
+SuppressDialog=1
 [Trace2]
 Enabled=0
 ShowSource=0
@@ -88,16 +101,3 @@ Mode=3
 Graph=0
 Symbiont=0
 Exclusions=
-[Disassemble mode]
-mode=0
-[Breakpoints2]
-Bp0=_ 1 "EMUL_CODE" "{$PROJ_DIR$\..\src\usart\commands.c}.4698.11" 0 0 1 "" 0 "" 0
-Bp1=_ 1 "EMUL_CODE" "{$PROJ_DIR$\..\src\usart\commands.c}.4702.3" 0 0 1 "" 0 "" 0
-Bp2=_ 0 "EMUL_CODE" "{C:\Windows\system32}.68.1" 0 0 1 "" 0 "" 0
-Count=3
-[Aliases]
-A0=_ "F:\memsic\svn\DMU380\software\RtosSalvo\Src\salvodelay.c" ""
-A1=_ "F:\memsic\svn\DMU380\software\RtosSalvo\Src\salvoinit2.c" ""
-A2=_ "F:\memsic\svn\DMU380\software\RtosSalvo\Src\salvosched.c" ""
-Count=3
-SuppressDialog=1

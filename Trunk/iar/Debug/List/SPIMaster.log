@@ -3,7 +3,7 @@ Global:
   Symbol           Redirected to
   ------           -------------
   __iar_sh_stdout  __iar_sh_stdout_swo
-Loading object E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\iar\Debug\Obj\ConfigureGPIOPins.o.
+Loading object E:\GitHub\SPI_Master\spi_master\Trunk\iar\Debug\Obj\ConfigureGPIOPins.o.
               reference :  GPIO_Init
               reference :  GPIO_PinAFConfig
               reference :  GPIO_StructInit
@@ -13,7 +13,7 @@ Loading object E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\i
               definition:  InitGPIOPin_SharedCommunication
               definition:  InitGPIOPin_Sync
               definition:  InitGPIOPin_Sync_asPWM
-Loading object E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\iar\Debug\Obj\SyncTimer.o.
+Loading object E:\GitHub\SPI_Master\spi_master\Trunk\iar\Debug\Obj\SyncTimer.o.
               reference :  NVIC_Init
               reference :  OSDisableHook
               reference :  OSEnableHook
@@ -40,15 +40,15 @@ Loading object E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\i
               definition:  freqRatio
               definition:  pwmDivider
               definition:  pwmEnabled
-              definition:  __iar_cc.IRQn.Vd12KSTwKR9
-Loading object E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\iar\Debug\Obj\UserCommunication_SPI.o.
+              definition:  __iar_cc.IRQn.aR8i7paYm9D
+Loading object E:\GitHub\SPI_Master\spi_master\Trunk\iar\Debug\Obj\UserCommunication_SPI.o.
               reference :  DelayMs
               reference :  GPIO_Init
               reference :  GPIO_SetBits
               reference :  spi_configure
               reference :  spi_go_faster
               definition:  InitCommunication_UserSPI
-Loading object E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\iar\Debug\Obj\bsp.o.
+Loading object E:\GitHub\SPI_Master\spi_master\Trunk\iar\Debug\Obj\bsp.o.
               reference :  FLASH_DataCacheCmd
               reference :  FLASH_InstructionCacheCmd
               reference :  FLASH_PrefetchBufferCmd
@@ -78,12 +78,12 @@ Loading object E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\i
               definition:  led_off
               definition:  led_on
               definition:  led_toggle
-Loading object E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\iar\Debug\Obj\circbuf.o.
+Loading object E:\GitHub\SPI_Master\spi_master\Trunk\iar\Debug\Obj\circbuf.o.
               definition:  CircBufEmpty
               definition:  CircBufGet
               definition:  CircBufInit
               definition:  CircBufPut
-Loading object E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\iar\Debug\Obj\commandLine.o.
+Loading object E:\GitHub\SPI_Master\spi_master\Trunk\iar\Debug\Obj\commandLine.o.
               reference :  DebugPrintEndline
               reference :  DebugPrintInt
               reference :  DebugPrintString
@@ -102,7 +102,7 @@ Loading object E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\i
               definition:  CmdLineLookup
               definition:  CmdLinexec
               definition:  InitCommandLine
-Loading object E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\iar\Debug\Obj\commandTable.o.
+Loading object E:\GitHub\SPI_Master\spi_master\Trunk\iar\Debug\Obj\commandTable.o.
               reference :  CmdBlinkLED
               reference :  CmdGpioPin
               reference :  CmdInitSPIPeripheral
@@ -152,7 +152,7 @@ Loading object E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\i
               reference :  oriRetention
               reference :  repeatSelfTest
               definition:  gCommands
-Loading object E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\iar\Debug\Obj\commands.o.
+Loading object E:\GitHub\SPI_Master\spi_master\Trunk\iar\Debug\Obj\commands.o.
               reference :  BurstReadFromRegisters
               reference :  CmdLineGetArgFloat
               reference :  CmdLineGetArgInt
@@ -305,8 +305,8 @@ Loading object E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\i
               definition:  sendEnterBootModeCommand
               definition:  sendResetStatusCommand
               definition:  validateApplicationImage
-              definition:  __iar_cc.IRQn.Vd12KSTwKR9
-Loading object E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\iar\Debug\Obj\debug.o.
+              definition:  __iar_cc.IRQn.aR8i7paYm9D
+Loading object E:\GitHub\SPI_Master\spi_master\Trunk\iar\Debug\Obj\debug.o.
               reference :  DebugSerialPutChar
               reference :  __aeabi_cfcmple
               reference :  __aeabi_f2iz
@@ -318,7 +318,7 @@ Loading object E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\i
               definition:  DebugPrintHex
               definition:  DebugPrintInt
               definition:  DebugPrintString
-Loading object E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\iar\Debug\Obj\debug_usart.o.
+Loading object E:\GitHub\SPI_Master\spi_master\Trunk\iar\Debug\Obj\debug_usart.o.
               reference :  CircBufEmpty
               reference :  CircBufGet
               reference :  CircBufInit
@@ -343,8 +343,8 @@ Loading object E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\i
               definition:  InitDebugSerialCommunication
               definition:  IsDebugSerialIdle
               definition:  USART1_IRQHandler
-              definition:  __iar_cc.IRQn.Vd12KSTwKR9
-Loading object E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\iar\Debug\Obj\iar_stm32f207zg_sk.o.
+              definition:  __iar_cc.IRQn.aR8i7paYm9D
+Loading object E:\GitHub\SPI_Master\spi_master\Trunk\iar\Debug\Obj\iar_stm32f207zg_sk.o.
               reference :  GPIO_Init
               reference :  RCC_AHB1PeriphClockCmd
               definition:  GPIO_CLK
@@ -354,7 +354,7 @@ Loading object E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\i
               definition:  STM_EVAL_LEDOff
               definition:  STM_EVAL_LEDOn
               definition:  STM_EVAL_LEDToggle
-Loading object E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\iar\Debug\Obj\main.o.
+Loading object E:\GitHub\SPI_Master\spi_master\Trunk\iar\Debug\Obj\main.o.
               reference :  BSP_init
               reference :  CmdLineLookup
               reference :  DebugPrintString
@@ -390,22 +390,22 @@ Loading object E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\i
               definition:  TaskCommandLine
               definition:  TaskHeartbeat
               definition:  main
-Loading object E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\iar\Debug\Obj\misc.o.
+Loading object E:\GitHub\SPI_Master\spi_master\Trunk\iar\Debug\Obj\misc.o.
               definition:  NVIC_Init
               definition:  NVIC_PriorityGroupConfig
               definition:  NVIC_SetVectorTable
               definition:  NVIC_SystemLPConfig
               definition:  SysTick_CLKSourceConfig
-Loading object E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\iar\Debug\Obj\salvohook_idle.o.
+Loading object E:\GitHub\SPI_Master\spi_master\Trunk\iar\Debug\Obj\salvohook_idle.o.
               definition:  OSIdlingHook
-Loading object E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\iar\Debug\Obj\salvohook_interrupt.o.
+Loading object E:\GitHub\SPI_Master\spi_master\Trunk\iar\Debug\Obj\salvohook_interrupt.o.
               definition:  OSDisableHook
               definition:  OSEnableHook
               definition:  OSRestoreHook
               definition:  OSSaveHook
-Loading object E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\iar\Debug\Obj\salvohook_wdt.o.
+Loading object E:\GitHub\SPI_Master\spi_master\Trunk\iar\Debug\Obj\salvohook_wdt.o.
               definition:  OSClrWDTHook
-Loading object E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\iar\Debug\Obj\spi.o.
+Loading object E:\GitHub\SPI_Master\spi_master\Trunk\iar\Debug\Obj\spi.o.
               reference :  GPIO_Init
               reference :  GPIO_PinAFConfig
               reference :  OSDisableHook
@@ -441,7 +441,7 @@ Loading object E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\i
               definition:  spi_go_slow
               definition:  spi_go_super_fast
               definition:  spi_set_speed_div
-Loading object E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\iar\Debug\Obj\startup_stm32f2xx.o.
+Loading object E:\GitHub\SPI_Master\spi_master\Trunk\iar\Debug\Obj\startup_stm32f2xx.o.
               reference :  __iar_program_start
               reference :  SystemInit
               definition:  __vector_table
@@ -537,7 +537,7 @@ Loading object E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\i
               weak def  :  CRYP_IRQHandler
               weak def  :  HASH_RNG_IRQHandler
               reference :  CSTACK$$Limit
-Loading object E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\iar\Debug\Obj\stm32f2xx_adc.o.
+Loading object E:\GitHub\SPI_Master\spi_master\Trunk\iar\Debug\Obj\stm32f2xx_adc.o.
               reference :  RCC_APB2PeriphResetCmd
               definition:  ADC_AnalogWatchdogCmd
               definition:  ADC_AnalogWatchdogSingleChannelConfig
@@ -577,7 +577,7 @@ Loading object E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\i
               definition:  ADC_StructInit
               definition:  ADC_TempSensorVrefintCmd
               definition:  ADC_VBATCmd
-Loading object E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\iar\Debug\Obj\stm32f2xx_can.o.
+Loading object E:\GitHub\SPI_Master\spi_master\Trunk\iar\Debug\Obj\stm32f2xx_can.o.
               reference :  RCC_APB1PeriphResetCmd
               definition:  CAN_CancelTransmit
               definition:  CAN_ClearFlag
@@ -603,14 +603,14 @@ Loading object E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\i
               definition:  CAN_Transmit
               definition:  CAN_TransmitStatus
               definition:  CAN_WakeUp
-Loading object E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\iar\Debug\Obj\stm32f2xx_crc.o.
+Loading object E:\GitHub\SPI_Master\spi_master\Trunk\iar\Debug\Obj\stm32f2xx_crc.o.
               definition:  CRC_CalcBlockCRC
               definition:  CRC_CalcCRC
               definition:  CRC_GetCRC
               definition:  CRC_GetIDRegister
               definition:  CRC_ResetDR
               definition:  CRC_SetIDRegister
-Loading object E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\iar\Debug\Obj\stm32f2xx_cryp.o.
+Loading object E:\GitHub\SPI_Master\spi_master\Trunk\iar\Debug\Obj\stm32f2xx_cryp.o.
               reference :  RCC_AHB2PeriphResetCmd
               definition:  CRYP_Cmd
               definition:  CRYP_DMACmd
@@ -629,7 +629,7 @@ Loading object E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\i
               definition:  CRYP_RestoreContext
               definition:  CRYP_SaveContext
               definition:  CRYP_StructInit
-Loading object E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\iar\Debug\Obj\stm32f2xx_cryp_aes.o.
+Loading object E:\GitHub\SPI_Master\spi_master\Trunk\iar\Debug\Obj\stm32f2xx_cryp_aes.o.
               reference :  CRYP_Cmd
               reference :  CRYP_DataIn
               reference :  CRYP_DataOut
@@ -642,7 +642,7 @@ Loading object E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\i
               definition:  CRYP_AES_CBC
               definition:  CRYP_AES_CTR
               definition:  CRYP_AES_ECB
-Loading object E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\iar\Debug\Obj\stm32f2xx_cryp_des.o.
+Loading object E:\GitHub\SPI_Master\spi_master\Trunk\iar\Debug\Obj\stm32f2xx_cryp_des.o.
               reference :  CRYP_Cmd
               reference :  CRYP_DataIn
               reference :  CRYP_DataOut
@@ -654,7 +654,7 @@ Loading object E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\i
               reference :  CRYP_KeyStructInit
               definition:  CRYP_DES_CBC
               definition:  CRYP_DES_ECB
-Loading object E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\iar\Debug\Obj\stm32f2xx_cryp_tdes.o.
+Loading object E:\GitHub\SPI_Master\spi_master\Trunk\iar\Debug\Obj\stm32f2xx_cryp_tdes.o.
               reference :  CRYP_Cmd
               reference :  CRYP_DataIn
               reference :  CRYP_DataOut
@@ -666,7 +666,7 @@ Loading object E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\i
               reference :  CRYP_KeyStructInit
               definition:  CRYP_TDES_CBC
               definition:  CRYP_TDES_ECB
-Loading object E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\iar\Debug\Obj\stm32f2xx_dac.o.
+Loading object E:\GitHub\SPI_Master\spi_master\Trunk\iar\Debug\Obj\stm32f2xx_dac.o.
               reference :  RCC_APB1PeriphResetCmd
               definition:  DAC_ClearFlag
               definition:  DAC_ClearITPendingBit
@@ -685,13 +685,13 @@ Loading object E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\i
               definition:  DAC_SoftwareTriggerCmd
               definition:  DAC_StructInit
               definition:  DAC_WaveGenerationCmd
-Loading object E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\iar\Debug\Obj\stm32f2xx_dbgmcu.o.
+Loading object E:\GitHub\SPI_Master\spi_master\Trunk\iar\Debug\Obj\stm32f2xx_dbgmcu.o.
               definition:  DBGMCU_APB1PeriphConfig
               definition:  DBGMCU_APB2PeriphConfig
               definition:  DBGMCU_Config
               definition:  DBGMCU_GetDEVID
               definition:  DBGMCU_GetREVID
-Loading object E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\iar\Debug\Obj\stm32f2xx_dcmi.o.
+Loading object E:\GitHub\SPI_Master\spi_master\Trunk\iar\Debug\Obj\stm32f2xx_dcmi.o.
               definition:  DCMI_CROPCmd
               definition:  DCMI_CROPConfig
               definition:  DCMI_CaptureCmd
@@ -707,7 +707,7 @@ Loading object E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\i
               definition:  DCMI_ReadData
               definition:  DCMI_SetEmbeddedSynchroCodes
               definition:  DCMI_StructInit
-Loading object E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\iar\Debug\Obj\stm32f2xx_dma.o.
+Loading object E:\GitHub\SPI_Master\spi_master\Trunk\iar\Debug\Obj\stm32f2xx_dma.o.
               definition:  DMA_ClearFlag
               definition:  DMA_ClearITPendingBit
               definition:  DMA_Cmd
@@ -727,7 +727,7 @@ Loading object E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\i
               definition:  DMA_PeriphIncOffsetSizeConfig
               definition:  DMA_SetCurrDataCounter
               definition:  DMA_StructInit
-Loading object E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\iar\Debug\Obj\stm32f2xx_exti.o.
+Loading object E:\GitHub\SPI_Master\spi_master\Trunk\iar\Debug\Obj\stm32f2xx_exti.o.
               definition:  EXTI_ClearFlag
               definition:  EXTI_ClearITPendingBit
               definition:  EXTI_DeInit
@@ -736,7 +736,7 @@ Loading object E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\i
               definition:  EXTI_GetITStatus
               definition:  EXTI_Init
               definition:  EXTI_StructInit
-Loading object E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\iar\Debug\Obj\stm32f2xx_flash.o.
+Loading object E:\GitHub\SPI_Master\spi_master\Trunk\iar\Debug\Obj\stm32f2xx_flash.o.
               definition:  FLASH_ClearFlag
               definition:  FLASH_DataCacheCmd
               definition:  FLASH_DataCacheReset
@@ -767,7 +767,7 @@ Loading object E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\i
               definition:  FLASH_SetLatency
               definition:  FLASH_Unlock
               definition:  FLASH_WaitForLastOperation
-Loading object E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\iar\Debug\Obj\stm32f2xx_fsmc.o.
+Loading object E:\GitHub\SPI_Master\spi_master\Trunk\iar\Debug\Obj\stm32f2xx_fsmc.o.
               definition:  FSMC_ClearFlag
               definition:  FSMC_ClearITPendingBit
               definition:  FSMC_GetECC
@@ -787,7 +787,7 @@ Loading object E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\i
               definition:  FSMC_PCCARDDeInit
               definition:  FSMC_PCCARDInit
               definition:  FSMC_PCCARDStructInit
-Loading object E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\iar\Debug\Obj\stm32f2xx_gpio.o.
+Loading object E:\GitHub\SPI_Master\spi_master\Trunk\iar\Debug\Obj\stm32f2xx_gpio.o.
               reference :  RCC_AHB1PeriphResetCmd
               definition:  GPIO_DeInit
               definition:  GPIO_Init
@@ -803,7 +803,7 @@ Loading object E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\i
               definition:  GPIO_ToggleBits
               definition:  GPIO_Write
               definition:  GPIO_WriteBit
-Loading object E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\iar\Debug\Obj\stm32f2xx_hash.o.
+Loading object E:\GitHub\SPI_Master\spi_master\Trunk\iar\Debug\Obj\stm32f2xx_hash.o.
               reference :  RCC_AHB2PeriphResetCmd
               definition:  HASH_ClearFlag
               definition:  HASH_ClearITPendingBit
@@ -822,7 +822,7 @@ Loading object E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\i
               definition:  HASH_SetLastWordValidBitsNbr
               definition:  HASH_StartDigest
               definition:  HASH_StructInit
-Loading object E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\iar\Debug\Obj\stm32f2xx_hash_md5.o.
+Loading object E:\GitHub\SPI_Master\spi_master\Trunk\iar\Debug\Obj\stm32f2xx_hash_md5.o.
               reference :  HASH_DataIn
               reference :  HASH_DeInit
               reference :  HASH_GetDigest
@@ -832,7 +832,7 @@ Loading object E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\i
               reference :  HASH_StartDigest
               definition:  HASH_MD5
               definition:  HMAC_MD5
-Loading object E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\iar\Debug\Obj\stm32f2xx_hash_sha1.o.
+Loading object E:\GitHub\SPI_Master\spi_master\Trunk\iar\Debug\Obj\stm32f2xx_hash_sha1.o.
               reference :  HASH_DataIn
               reference :  HASH_DeInit
               reference :  HASH_GetDigest
@@ -842,7 +842,7 @@ Loading object E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\i
               reference :  HASH_StartDigest
               definition:  HASH_SHA1
               definition:  HMAC_SHA1
-Loading object E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\iar\Debug\Obj\stm32f2xx_i2c.o.
+Loading object E:\GitHub\SPI_Master\spi_master\Trunk\iar\Debug\Obj\stm32f2xx_i2c.o.
               reference :  RCC_APB1PeriphResetCmd
               reference :  RCC_GetClocksFreq
               definition:  I2C_ARPCmd
@@ -878,14 +878,14 @@ Loading object E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\i
               definition:  I2C_StretchClockCmd
               definition:  I2C_StructInit
               definition:  I2C_TransmitPEC
-Loading object E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\iar\Debug\Obj\stm32f2xx_iwdg.o.
+Loading object E:\GitHub\SPI_Master\spi_master\Trunk\iar\Debug\Obj\stm32f2xx_iwdg.o.
               definition:  IWDG_Enable
               definition:  IWDG_GetFlagStatus
               definition:  IWDG_ReloadCounter
               definition:  IWDG_SetPrescaler
               definition:  IWDG_SetReload
               definition:  IWDG_WriteAccessCmd
-Loading object E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\iar\Debug\Obj\stm32f2xx_pwr.o.
+Loading object E:\GitHub\SPI_Master\spi_master\Trunk\iar\Debug\Obj\stm32f2xx_pwr.o.
               reference :  RCC_APB1PeriphResetCmd
               definition:  PWR_BackupAccessCmd
               definition:  PWR_BackupRegulatorCmd
@@ -898,7 +898,7 @@ Loading object E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\i
               definition:  PWR_PVDCmd
               definition:  PWR_PVDLevelConfig
               definition:  PWR_WakeUpPinCmd
-Loading object E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\iar\Debug\Obj\stm32f2xx_rcc.o.
+Loading object E:\GitHub\SPI_Master\spi_master\Trunk\iar\Debug\Obj\stm32f2xx_rcc.o.
               definition:  RCC_AHB1PeriphClockCmd
               definition:  RCC_AHB1PeriphClockLPModeCmd
               definition:  RCC_AHB1PeriphResetCmd
@@ -943,7 +943,7 @@ Loading object E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\i
               definition:  RCC_RTCCLKConfig
               definition:  RCC_SYSCLKConfig
               definition:  RCC_WaitForHSEStartUp
-Loading object E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\iar\Debug\Obj\stm32f2xx_rng.o.
+Loading object E:\GitHub\SPI_Master\spi_master\Trunk\iar\Debug\Obj\stm32f2xx_rng.o.
               reference :  RCC_AHB2PeriphResetCmd
               definition:  RNG_ClearFlag
               definition:  RNG_ClearITPendingBit
@@ -953,7 +953,7 @@ Loading object E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\i
               definition:  RNG_GetITStatus
               definition:  RNG_GetRandomNumber
               definition:  RNG_ITConfig
-Loading object E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\iar\Debug\Obj\stm32f2xx_rtc.o.
+Loading object E:\GitHub\SPI_Master\spi_master\Trunk\iar\Debug\Obj\stm32f2xx_rtc.o.
               definition:  RTC_AlarmCmd
               definition:  RTC_AlarmStructInit
               definition:  RTC_CalibOutputCmd
@@ -996,7 +996,7 @@ Loading object E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\i
               definition:  RTC_WakeUpCmd
               definition:  RTC_WriteBackupRegister
               definition:  RTC_WriteProtectionCmd
-Loading object E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\iar\Debug\Obj\stm32f2xx_sdio.o.
+Loading object E:\GitHub\SPI_Master\spi_master\Trunk\iar\Debug\Obj\stm32f2xx_sdio.o.
               reference :  RCC_APB2PeriphResetCmd
               definition:  SDIO_CEATAITCmd
               definition:  SDIO_ClearFlag
@@ -1028,7 +1028,7 @@ Loading object E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\i
               definition:  SDIO_StopSDIOReadWait
               definition:  SDIO_StructInit
               definition:  SDIO_WriteData
-Loading object E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\iar\Debug\Obj\stm32f2xx_spi.o.
+Loading object E:\GitHub\SPI_Master\spi_master\Trunk\iar\Debug\Obj\stm32f2xx_spi.o.
               reference :  RCC_APB1PeriphResetCmd
               reference :  RCC_APB2PeriphResetCmd
               definition:  I2S_Cmd
@@ -1055,7 +1055,7 @@ Loading object E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\i
               definition:  SPI_StructInit
               definition:  SPI_TIModeCmd
               definition:  SPI_TransmitCRC
-Loading object E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\iar\Debug\Obj\stm32f2xx_syscfg.o.
+Loading object E:\GitHub\SPI_Master\spi_master\Trunk\iar\Debug\Obj\stm32f2xx_syscfg.o.
               reference :  RCC_APB2PeriphResetCmd
               definition:  SYSCFG_CompensationCellCmd
               definition:  SYSCFG_DeInit
@@ -1063,7 +1063,7 @@ Loading object E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\i
               definition:  SYSCFG_EXTILineConfig
               definition:  SYSCFG_GetCompensationCellStatus
               definition:  SYSCFG_MemoryRemapConfig
-Loading object E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\iar\Debug\Obj\stm32f2xx_tim.o.
+Loading object E:\GitHub\SPI_Master\spi_master\Trunk\iar\Debug\Obj\stm32f2xx_tim.o.
               reference :  RCC_APB1PeriphResetCmd
               reference :  RCC_APB2PeriphResetCmd
               definition:  TIM_ARRPreloadConfig
@@ -1154,7 +1154,7 @@ Loading object E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\i
               definition:  TIM_TimeBaseStructInit
               definition:  TIM_UpdateDisableConfig
               definition:  TIM_UpdateRequestConfig
-Loading object E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\iar\Debug\Obj\stm32f2xx_usart.o.
+Loading object E:\GitHub\SPI_Master\spi_master\Trunk\iar\Debug\Obj\stm32f2xx_usart.o.
               reference :  RCC_APB1PeriphResetCmd
               reference :  RCC_APB2PeriphResetCmd
               reference :  RCC_GetClocksFreq
@@ -1187,7 +1187,7 @@ Loading object E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\i
               definition:  USART_SmartCardNACKCmd
               definition:  USART_StructInit
               definition:  USART_WakeUpConfig
-Loading object E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\iar\Debug\Obj\stm32f2xx_wwdg.o.
+Loading object E:\GitHub\SPI_Master\spi_master\Trunk\iar\Debug\Obj\stm32f2xx_wwdg.o.
               reference :  RCC_APB1PeriphResetCmd
               definition:  WWDG_ClearFlag
               definition:  WWDG_DeInit
@@ -1197,12 +1197,12 @@ Loading object E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\i
               definition:  WWDG_SetCounter
               definition:  WWDG_SetPrescaler
               definition:  WWDG_SetWindowValue
-Loading object E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\iar\Debug\Obj\system_stm32f2xx.o.
+Loading object E:\GitHub\SPI_Master\spi_master\Trunk\iar\Debug\Obj\system_stm32f2xx.o.
               definition:  AHBPrescTable
               definition:  SystemCoreClock
               definition:  SystemCoreClockUpdate
               definition:  SystemInit
-Loading object E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\iar\Debug\Obj\timer.o.
+Loading object E:\GitHub\SPI_Master\spi_master\Trunk\iar\Debug\Obj\timer.o.
               reference :  OSTimer
               reference :  SystemCoreClock
               definition:  DelayMs
@@ -1211,8 +1211,8 @@ Loading object E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\i
               definition:  SysTick_Handler
               definition:  TimeNow
               definition:  TimePassed
-              definition:  __iar_cc.IRQn.Vd12KSTwKR9
-Loading object E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\iar\Debug\Obj\utilities.o.
+              definition:  __iar_cc.IRQn.aR8i7paYm9D
+Loading object E:\GitHub\SPI_Master\spi_master\Trunk\iar\Debug\Obj\utilities.o.
               definition:  strcmpi
               definition:  strcpy
               definition:  strrep
@@ -1669,22 +1669,22 @@ Selecting member abort.o(dl7M_tlf.a) to define abort (optional).
               reference :  __exit
               definition:  abort
 Resolving duplicate symbol definitions
-  Picking EXTI15_10_IRQHandler [s24 E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\iar\Debug\Obj\commands.o]
-    Suppressing EXTI15_10_IRQHandler [s58 E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\iar\Debug\Obj\startup_stm32f2xx.o]
-  Picking SPI3_IRQHandler [s9 E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\iar\Debug\Obj\spi.o]
-    Suppressing SPI3_IRQHandler [s69 E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\iar\Debug\Obj\startup_stm32f2xx.o]
-  Picking EXTI3_IRQHandler [s24 E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\iar\Debug\Obj\commands.o]
-    Suppressing EXTI3_IRQHandler [s27 E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\iar\Debug\Obj\startup_stm32f2xx.o]
-  Picking SysTick_Handler [s8 E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\iar\Debug\Obj\timer.o]
-    Suppressing SysTick_Handler [s17 E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\iar\Debug\Obj\startup_stm32f2xx.o]
-  Picking TIM5_IRQHandler [s15 E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\iar\Debug\Obj\SyncTimer.o]
-    Suppressing TIM5_IRQHandler [s68 E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\iar\Debug\Obj\startup_stm32f2xx.o]
-  Picking USART1_IRQHandler [s12 E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\iar\Debug\Obj\debug_usart.o]
-    Suppressing USART1_IRQHandler [s55 E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\iar\Debug\Obj\startup_stm32f2xx.o]
-  Picking __iar_cc.IRQn.Vd12KSTwKR9 [s60 E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\iar\Debug\Obj\timer.o]
-    Suppressing __iar_cc.IRQn.Vd12KSTwKR9 [s55 E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\iar\Debug\Obj\SyncTimer.o]
-    Suppressing __iar_cc.IRQn.Vd12KSTwKR9 [s697 E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\iar\Debug\Obj\commands.o]
-    Suppressing __iar_cc.IRQn.Vd12KSTwKR9 [s52 E:\SPIMaster\SPIMaster_BadDataTest5_spi_rate_and_timerPWM\Trunk\iar\Debug\Obj\debug_usart.o]
+  Picking EXTI15_10_IRQHandler [s24 E:\GitHub\SPI_Master\spi_master\Trunk\iar\Debug\Obj\commands.o]
+    Suppressing EXTI15_10_IRQHandler [s58 E:\GitHub\SPI_Master\spi_master\Trunk\iar\Debug\Obj\startup_stm32f2xx.o]
+  Picking SPI3_IRQHandler [s9 E:\GitHub\SPI_Master\spi_master\Trunk\iar\Debug\Obj\spi.o]
+    Suppressing SPI3_IRQHandler [s69 E:\GitHub\SPI_Master\spi_master\Trunk\iar\Debug\Obj\startup_stm32f2xx.o]
+  Picking EXTI3_IRQHandler [s24 E:\GitHub\SPI_Master\spi_master\Trunk\iar\Debug\Obj\commands.o]
+    Suppressing EXTI3_IRQHandler [s27 E:\GitHub\SPI_Master\spi_master\Trunk\iar\Debug\Obj\startup_stm32f2xx.o]
+  Picking SysTick_Handler [s8 E:\GitHub\SPI_Master\spi_master\Trunk\iar\Debug\Obj\timer.o]
+    Suppressing SysTick_Handler [s17 E:\GitHub\SPI_Master\spi_master\Trunk\iar\Debug\Obj\startup_stm32f2xx.o]
+  Picking TIM5_IRQHandler [s15 E:\GitHub\SPI_Master\spi_master\Trunk\iar\Debug\Obj\SyncTimer.o]
+    Suppressing TIM5_IRQHandler [s68 E:\GitHub\SPI_Master\spi_master\Trunk\iar\Debug\Obj\startup_stm32f2xx.o]
+  Picking USART1_IRQHandler [s12 E:\GitHub\SPI_Master\spi_master\Trunk\iar\Debug\Obj\debug_usart.o]
+    Suppressing USART1_IRQHandler [s55 E:\GitHub\SPI_Master\spi_master\Trunk\iar\Debug\Obj\startup_stm32f2xx.o]
+  Picking __iar_cc.IRQn.aR8i7paYm9D [s60 E:\GitHub\SPI_Master\spi_master\Trunk\iar\Debug\Obj\timer.o]
+    Suppressing __iar_cc.IRQn.aR8i7paYm9D [s55 E:\GitHub\SPI_Master\spi_master\Trunk\iar\Debug\Obj\SyncTimer.o]
+    Suppressing __iar_cc.IRQn.aR8i7paYm9D [s697 E:\GitHub\SPI_Master\spi_master\Trunk\iar\Debug\Obj\commands.o]
+    Suppressing __iar_cc.IRQn.aR8i7paYm9D [s52 E:\GitHub\SPI_Master\spi_master\Trunk\iar\Debug\Obj\debug_usart.o]
 *** Marking from roots ***
 Marking symbol __iar_program_start                Glb  (10 cstartup_M.o) [program entry]
   Marking fragment #6095 .text (6 cstartup_M.o(rt7M_tl.a)) init:always
@@ -7348,9 +7348,9 @@ Marking from fragment #6835 .text (24 commands.o)
   Marking symbol CmdLineGetArgUInt                  Glb  (152 commandLine.o)
   Marking symbol ??DataTable10                           (550 commands.o)
     Marking fragment #6847 .text (24 commands.o)
-  Marking symbol ??DataTable9                            (978 commands.o)
   Marking symbol ??DataTable10_1                         (551 commands.o)
     Marking fragment #6848 .text (24 commands.o)
+  Marking symbol ??DataTable9                            (978 commands.o)
   Marking symbol ??DataTable10_2                         (552 commands.o)
     Marking fragment #6849 .text (24 commands.o)
   Marking symbol ??DataTable10_3                         (553 commands.o)
@@ -13169,7 +13169,7 @@ Marking from fragment #5753 .debug_info (7 timer.o)
     Marking fragment #5752 .debug_line (6 timer.o)
   Marking symbol .debug_macinfo76                        (58 timer.o)
     Marking fragment #5809 .debug_macinfo (76 timer.o)
-  Marking symbol __iar_cc.IRQn.Vd12KSTwKR9          Glb  (91 timer.o)
+  Marking symbol __iar_cc.IRQn.aR8i7paYm9D          Glb  (91 timer.o)
     Marking fragment #5797 .debug_info (60 timer.o)
 Marking from fragment #5797 .debug_info (60 timer.o)
   Marking symbol .debug_abbrev69                         (47 timer.o)
@@ -16623,7 +16623,7 @@ Marking from fragment #1290 .debug_frame (42 debug_usart.o)
   Marking symbol .text_10                                (39 debug_usart.o)
 Marking from fragment #1289 .debug_info (41 debug_usart.o)
   Marking symbol .debug_abbrev56                         (46 debug_usart.o)
-  Marking symbol __iar_cc.IRQn.Vd12KSTwKR9          Glb  (91 timer.o)
+  Marking symbol __iar_cc.IRQn.aR8i7paYm9D          Glb  (91 timer.o)
   Marking symbol .text_9                                 (37 debug_usart.o)
   Marking symbol .text_9                                 (37 debug_usart.o)
   Marking symbol .debug_line40                           (63 debug_usart.o)
@@ -20125,7 +20125,7 @@ Marking from fragment #697 .debug_frame (281 commands.o)
   Marking symbol .text_226                               (1329 commands.o)
 Marking from fragment #696 .debug_info (280 commands.o)
   Marking symbol .debug_abbrev781                        (1822 commands.o)
-  Marking symbol __iar_cc.IRQn.Vd12KSTwKR9          Glb  (91 timer.o)
+  Marking symbol __iar_cc.IRQn.aR8i7paYm9D          Glb  (91 timer.o)
   Marking symbol .text_225                               (1327 commands.o)
   Marking symbol .text_225                               (1327 commands.o)
   Marking symbol .debug_line279                          (1843 commands.o)
@@ -21155,7 +21155,7 @@ Marking from fragment #72 .debug_frame (38 SyncTimer.o)
   Marking symbol .text_14                                (32 SyncTimer.o)
 Marking from fragment #71 .debug_info (36 SyncTimer.o)
   Marking symbol .debug_abbrev61                         (46 SyncTimer.o)
-  Marking symbol __iar_cc.IRQn.Vd12KSTwKR9          Glb  (91 timer.o)
+  Marking symbol __iar_cc.IRQn.aR8i7paYm9D          Glb  (91 timer.o)
   Marking symbol .text15                                 (28 SyncTimer.o)
   Marking symbol .text15                                 (28 SyncTimer.o)
   Marking symbol .debug_line35                           (65 SyncTimer.o)
@@ -21358,7 +21358,7 @@ Marking from fragment #8 .debug_frame (13 ConfigureGPIOPins.o)
 Unused fragments:
   Section name           Index  Offset   Size  Object
   ------------           -----  ------   ----  ------
-  .text                      8    0x70   0x42  ConfigureGPIOPins.o
+  .text                      8    0x72   0x42  ConfigureGPIOPins.o
   __DLIB_PERTHREAD          10     0x0    0x0  ConfigureGPIOPins.o
   __DLIB_PERTHREAD_init     11     0x0    0x0  ConfigureGPIOPins.o
   .text                     15   0x18c   0x20  SyncTimer.o
@@ -21382,26 +21382,26 @@ Unused fragments:
   .rodata                   22     0x0    0x2  commandLine.o
   __DLIB_PERTHREAD         118     0x0    0x0  commandTable.o
   __DLIB_PERTHREAD_init    119     0x0    0x0  commandTable.o
-  .text                     24  0x1ea0   0x54  commands.o
-                                0x2058    0x4
-                                0x286c  0x20e
-                                0x2ad4    0x4
-                                0x2ad8    0x4
+  .text                     24  0x1ea8   0x54  commands.o
+                                0x2060    0x4
+                                0x2874  0x20e
                                 0x2adc    0x4
-                                0x2e14    0x4
-                                0x2e18    0x4
+                                0x2ae0    0x4
+                                0x2ae4    0x4
                                 0x2e1c    0x4
                                 0x2e20    0x4
                                 0x2e24    0x4
                                 0x2e28    0x4
                                 0x2e2c    0x4
                                 0x2e30    0x4
-                                0x37d0    0x4
-                                0x3bbc    0x8
-                                0x3f04  0x104
-                                0x4100    0x4
-                                0x4a48    0x4
-                                0x56fe   0x30
+                                0x2e34    0x4
+                                0x2e38    0x4
+                                0x37d8    0x4
+                                0x3bc4    0x8
+                                0x3f0c  0x104
+                                0x4108    0x4
+                                0x4a50    0x4
+                                0x5706   0x30
   __DLIB_PERTHREAD          47     0x0    0x0  commands.o
   __DLIB_PERTHREAD_init     48     0x0    0x0  commands.o
   .rodata                   49     0x0    0x2  commands.o
