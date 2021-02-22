@@ -1,0 +1,46 @@
+/**********************************************************************************
+* File name:  xbowsp_bit.def
+*
+* File description: 
+*   -Header file
+*               
+* $Rev: 17486 $
+* $Date: 2011-02-09 23:53:11 -0800 (Wed, 09 Feb 2011) $
+* $Author: by-denglish $
+*
+*********************************************************************************/
+/* generate this file from xbowsp_BITStatus_priv.h */
+
+BIT_CAT(BIT_DUMMY, bitError.flags)			/* dummy to get things started correctly */
+                                        /* avoid '0' as valid class */ 
+
+BIT_CAT(BITERR_TOP,       bitError.flags )     /* hierarchy & KFD error flags */
+
+BIT_CAT(BITERR_MIDHW,     bitError.hw.flags)
+
+BIT_CAT(BITERR_LOWVOLT,   bitError.hw.voltage.flags)
+BIT_CAT(BITERR_LOWSENS,   bitError.hw.sens.flags)
+BIT_CAT(BITERR_LOWENV,    bitError.hw.env.flags)
+BIT_CAT(BITERR_LOWICOMM,  bitError.hw.icom.flags) 
+
+BIT_CAT(BITERR_MIDCOMM,   bitError.comm.flags)
+
+BIT_CAT(BITERR_LOWUCOMM,  bitError.comm.user.flags)
+BIT_CAT(BITERR_LOWMCOMM,  bitError.comm.crm.flags)   
+BIT_CAT(BITERR_LOWPORT0,  bitError.comm.ports.port0)
+BIT_CAT(BITERR_LOWPORT1,  bitError.comm.ports.port1)
+BIT_CAT(BITERR_LOWPORT2,  bitError.comm.ports.port2)
+BIT_CAT(BITERR_LOWPORT3,  bitError.comm.ports.port3)
+
+BIT_CAT(BITERR_MIDSW,     bitError.sw.flags)
+
+BIT_CAT(BITERR_LOWALGO,   bitError.sw.algo.flags)
+BIT_CAT(BITERR_LOWDATA,   bitError.sw.data.flags)
+
+BIT_CAT(BITSTAT_TOP,      bitStatus.flags)
+
+BIT_CAT(BITSTAT_MIDHW,    bitStatus.hw.flags)
+BIT_CAT(BITSTAT_MIDCOMM,  bitStatus.comm.flags)
+BIT_CAT(BITSTAT_MIDSW,    bitStatus.sw.flags)
+BIT_CAT(BITSTAT_MIDSENS,  bitStatus.sensor.flags)
+     

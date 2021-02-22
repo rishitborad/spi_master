@@ -1,0 +1,16 @@
+/*********************************************************************************
+* File name:  crm_packet_types.def
+*
+* File description: 
+*   - CRM packet type definitions
+*               
+*********************************************************************************/
+ 
+/* packets defined as: PACKET_TYPE(<constant name>, <variable name>) */
+
+/* CRM packet type */
+PACKET_TYPE(CRM, Crm)
+      
+/* error condition "packet" types, used internally in the DUP for error handling */
+PACKET_TYPE(CRM_ERROR_TIMEOUT,			CrmErrorTimeout)		/* timeout reached before entire packet was received */
+PACKET_TYPE(CRM_ERROR_CHECKSUM_FAIL,	CrmErrorChecksumFail)	/* packet checksum failed */ 

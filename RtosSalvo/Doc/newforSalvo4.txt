@@ -1,0 +1,31 @@
+***** DIFFERENCES BETWEEN SALVO v3 and SALVO 4 ******
+
+1) Different organization of project files, etc.
+
+2) Context-switching labels no longer required for most compilers:
+
+  Salvo v3:   OS_Delay(20, label);
+  Salvo 4:    OS_Delay(20);
+
+3) Interrupt control for critical sections is now implemented as
+two user hooks (default/library: see docs):
+
+  OSDisableHook();
+  OSEnableHook();
+
+See your compiler's Salvo reference  manual for a discussion of 
+how to use these functions.
+
+4) Idle hook now implemented as a user hook (default: dummy 
+function):
+ 
+  OSIdlingHook();
+
+5) WDT clear/reset now implemented as a user hook (default/library: 
+see docs):
+
+  OSClrWDTHook();
+
+6) All salvo source files are prefixed with "salvo". Salvo v3's
+mem.c is now salvomem.c, etc. This only affects Salvo Pro
+users.

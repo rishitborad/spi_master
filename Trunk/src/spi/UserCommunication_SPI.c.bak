@@ -1,0 +1,87 @@
+
+#include <salvo.h>
+
+#include "boardDefinition.h"
+#include "spi.h"
+#include "timer.h"
+
+#include "UserCommunication_SPI.h"
+
+#include "debug.h"
+
+//#include "../src/board/iar_stm32f207zg_sk.h"
+
+#include "stm32f2xx.h"
+#include "stm32f2xx_spi.h"
+
+/**
+ * @brief Chip select high interrupt
+ */
+//#define NSS_SET_GPIO_PIN              GPIO_Pin_2
+//#define NSS_SET_GPIO_PORT             GPIOD
+//#define NSS_SET_GPIO_CLK              RCC_AHB1Periph_GPIOD
+//#define NSS_SET_EXTI_LINE             EXTI_Line2
+//#define NSS_SET_EXTI_PORT_SOURCE      EXTI_PortSourceGPIOD
+//#define NSS_SET_EXTI_PIN_SOURCE       EXTI_PinSource2
+////#define NSS_SET_EXTI_IRQn             EXTI2_IRQn
+////#define NSS_SET_EXTI_IRQ              EXTI2_IRQHandler
+////#define NSS_SET_EXTI_IRQHandler       EXTI2_IRQHandler
+
+static void _UserCommSpiDMADoneCallback( void )
+{
+    GPIO_SetBits( SPI3_SLAVE_SELECT_PORT, SPI3_SLAVE_SELECT_PIN );
+//    GPIO_SetBits( USER_B_UART_RX_GPIO_PORT, USER_B_UART_RX_PIN );
+//    OSSetEFlag( EFLAGS_DATA_READY, EF_DATA_GYRO_READY );
+}
+
+
+
+// Initialize the user communication SPI line
+uint8_t InitCommunication_UserSPI( void )
+{
+    uint8_t error;
+
+    GPIO_InitTypeDef GPIO_InitStructure;
+
+// FIXME: configure clock
+
+    // ---- Initialize UARTB RX (pin D2) and SPI3 nSS (pin A15) as input pins so, regardless of
+    //      how SPI is configured (in 'spi_configure' below), neither interfere with each other ----
+    GPIO_InitStructure.GPIO_Mode  = GPIO_Mode_IN;       // input/output/alt func/analog
+    GPIO_InitStructure.GPIO_OType = GPIO_OType_PP;      // push-pull or open-drain
+    GPIO_InitStructure.GPIO_PuPd  = GPIO_PuPd_NOPULL;       // Up/Down/NoPull
+    GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;   // low/med/fast/high speed
+
+    // A15 is the nominal SPI3 nSS pin
+    GPIO_InitStructure.GPIO_Pin = GPIO_Pin_15;
+    GPIO_Init( GPIOA, &GPIO_InitStructure);
+
+    // D2 is the nominal UART5 RX pin
+    GPIO_InitStructure.GPIO_Pin = GPIO_Pin_2;
+    GPIO_Init( GPIOD, &GPIO_InitStructure);
+
+    // ------ Set up the SPI3 IO pins, protocol, and interrupt ------
+    error = spi_configure( kUserCommunicationSPI,
+                           SPI_CPOL_AND_CPHA_HIGH,
+                           &_UserCommSpiDMADoneCallback );
+    if( error ) {
+        return error;
+    }
+
+    // No interrrupts, yet...  This will be added to accomodate the data ready line
+//    _InitGyroDataReadyInt();
+
+    // ------ Set SPI to a low speed during initialization (master only) ------
+    //spi_go_really_slow( kUserCommunicationSPI );   // 10 mph
+    //spi_go_slow( kUserCommunicationSPI );          // 20 mph
+    spi_go_faster( kUserCommunicationSPI );          // 30 mph
+    //spi_go_even_faster( kUserCommunicationSPI );   // 40 mph
+    //spi_go_fast( kUserCommunicationSPI );          // 50 mph
+
+    // Set the SPI nSS pin high and pause briefly
+    GPIO_SetBits( SPI3_SLAVE_SELECT_PORT, SPI3_SLAVE_SELECT_PIN );
+    DelayMs( 5 );
+
+    return( 1 );
+}
+
